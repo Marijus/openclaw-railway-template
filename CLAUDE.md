@@ -96,7 +96,7 @@ open http://localhost:8080/setup  # password: test
 - `OPENCLAW_GATEWAY_TOKEN` — auth token for gateway (auto-generated if unset)
 - `PORT` — wrapper HTTP port (default 8080)
 - `INTERNAL_GATEWAY_PORT` — gateway internal port (default 18789)
-- `OPENCLAW_ENTRY` — path to `entry.js` (default `/openclaw/dist/entry.js`)
+- `OPENCLAW_ENTRY` — path to CLI entry (default `/openclaw/dist/index.mjs`)
 
 ### Authentication Flow
 
